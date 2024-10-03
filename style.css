@@ -1,0 +1,54 @@
+.main {
+  margin-top: 100px;
+  /* text-align: center;  also a good method to center some buttons*/
+}
+
+.main-logo {
+  width: 300px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-searchbar {
+  width: 400px;
+  /* height: 24px; */
+  line-height: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* design */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+}
+
+.btn-wrapper {
+  /* flexbox method */
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  /* display: inline-block;
+  margin-left: auto;
+  margin-right: auto; use text-align center method bcs they are in-line elements or flexbox*/
+  margin-top: 30px;
+  margin-right: 4px;
+  margin-left: 4px;
+  /* design */
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 4px;
+  background: #dfe1e5;
+  cursor: pointer;
+}
